@@ -2,8 +2,9 @@
 # -*- coding: utf-8 -*-
 
 import sys, boto3, json, pdb, requests, json, time, os
-### Configuration Section ###
-
+### Installation process 
+## pip install boto3 pdb requests
+## Run this script using $ python ec2_automation.py instance-id start
 
 Usage = "\n\t Usage: {0} <Instance-ID> (start|stop|status)".format( sys.argv[0])
 exampleUsage = "\n\t Example,\n\n\t\t {0} i-0f16c05ae009649fa status \n\n".format( sys.argv[0])
